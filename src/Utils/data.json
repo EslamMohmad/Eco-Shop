@@ -1,0 +1,532 @@
+{
+  "Fruits": [
+    {
+      "discount": 52,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20strawberry%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20strawberry%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20strawberry%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20strawberry%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20strawberry%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20strawberry%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Fresh strawberry",
+      "price": {
+        "after": 21,
+        "before": 44
+      },
+      "rating": 1
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20watermelon%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20watermelon%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20watermelon%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20watermelon%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20watermelon%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FFresh%20watermelon%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Fresh watermelon",
+      "price": {
+        "after": 30,
+        "before": 0
+      },
+      "rating": 4.5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FGreen%20sliced%20apple%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FGreen%20sliced%20apple%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FGreen%20sliced%20apple%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FGreen%20sliced%20apple%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FGreen%20sliced%20apple%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FGreen%20sliced%20apple%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Green sliced apple",
+      "price": {
+        "after": 22.22,
+        "before": 0
+      },
+      "rating": 5.5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FNatural%20avocado%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FNatural%20avocado%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FNatural%20avocado%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FNatural%20avocado%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FNatural%20avocado%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FNatural%20avocado%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Natural avocado",
+      "price": {
+        "after": 30,
+        "before": 0
+      },
+      "rating": 4
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20banana%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20banana%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20banana%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20banana%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20banana%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20banana%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Organic banana",
+      "price": {
+        "after": 23,
+        "before": 0
+      },
+      "rating": 4
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20orange%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20orange%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20orange%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20orange%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20orange%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FOrganic%20orange%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Organic orange",
+      "price": {
+        "after": 34,
+        "before": 0
+      },
+      "rating": 5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FRed%20fresh%20apple%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FRed%20fresh%20apple%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FRed%20fresh%20apple%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FRed%20fresh%20apple%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FRed%20fresh%20apple%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FFruits%2FRed%20fresh%20apple%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Red Fresh Apple",
+      "price": {
+        "after": 22,
+        "before": 0
+      },
+      "rating": 4
+    }
+  ],
+  "Milk and dairy": [
+    {
+      "discount": 52,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20herbs%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20herbs%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20herbs%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20herbs%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20herbs%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20herbs%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Corn chips herbs",
+      "price": {
+        "after": 21,
+        "before": 44
+      },
+      "rating": 2.5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20sundried%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20sundried%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20sundried%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20sundried%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20sundried%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FCorn%20chips%20sundried%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Corn chips sundried",
+      "price": {
+        "after": 30,
+        "before": 0
+      },
+      "rating": 2.5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FDelux%20walnut%20kernels%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FDelux%20walnut%20kernels%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FDelux%20walnut%20kernels%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FDelux%20walnut%20kernels%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FDelux%20walnut%20kernels%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FDelux%20walnut%20kernels%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Delux walnut kernels",
+      "price": {
+        "after": 11,
+        "before": 0
+      },
+      "rating": 3.7
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20dry%20fruit%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20dry%20fruit%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20dry%20fruit%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20dry%20fruit%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20dry%20fruit%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20dry%20fruit%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Elly nuts dry fruit",
+      "price": {
+        "after": 23,
+        "before": 0
+      },
+      "rating": 3
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20pumpkin%20seeds%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20pumpkin%20seeds%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20pumpkin%20seeds%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20pumpkin%20seeds%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20pumpkin%20seeds%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FElly%20nuts%20pumpkin%20seeds%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Elly nuts pumpkin seeds",
+      "price": {
+        "after": 18,
+        "before": 0
+      },
+      "rating": 1.8
+    },
+    {
+      "discount": 26,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFamly%20punvhmeva%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFamly%20punvhmeva%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFamly%20punvhmeva%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFamly%20punvhmeva%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFamly%20punvhmeva%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFamly%20punvhmeva%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Famly punvhmeva",
+      "price": {
+        "after": 29,
+        "before": 39
+      },
+      "rating": 3.7
+    },
+    {
+      "discount": 40,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20healthy%20cheese%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20healthy%20cheese%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20healthy%20cheese%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20healthy%20cheese%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20healthy%20cheese%2Fimg%20(5).jpg?alt=media"
+      ],
+      "name": "Fresh healthy cheese",
+      "price": {
+        "after": 30,
+        "before": 50
+      },
+      "rating": 4.5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20organic%20egg%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20organic%20egg%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20organic%20egg%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20organic%20egg%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20organic%20egg%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FFresh%20organic%20egg%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Fresh organic egg",
+      "price": {
+        "after": 22,
+        "before": 0
+      },
+      "rating": 5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FGoldern%20buttery%20corn%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FGoldern%20buttery%20corn%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FGoldern%20buttery%20corn%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FGoldern%20buttery%20corn%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FGoldern%20buttery%20corn%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FGoldern%20buttery%20corn%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Goldern buttery corn",
+      "price": {
+        "after": 22,
+        "before": 0
+      },
+      "rating": 3.9
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FKurkure%20playz%20puffcorn%20yummy%20cheese%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FKurkure%20playz%20puffcorn%20yummy%20cheese%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FKurkure%20playz%20puffcorn%20yummy%20cheese%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FKurkure%20playz%20puffcorn%20yummy%20cheese%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FKurkure%20playz%20puffcorn%20yummy%20cheese%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FKurkure%20playz%20puffcorn%20yummy%20cheese%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Kurkure playz puffcorn yummy egg",
+      "price": {
+        "after": 42,
+        "before": 0
+      },
+      "rating": 3.1
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FLays%20Stax%20Cheddar%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FLays%20Stax%20Cheddar%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FLays%20Stax%20Cheddar%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FLays%20Stax%20Cheddar%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FLays%20Stax%20Cheddar%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FLays%20Stax%20Cheddar%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Lays Stax Cheddar",
+      "price": {
+        "after": 22,
+        "before": 0
+      },
+      "rating": 1.8
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPotato%20pop%20crips%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPotato%20pop%20crips%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPotato%20pop%20crips%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPotato%20pop%20crips%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPotato%20pop%20crips%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPotato%20pop%20crips%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Potato pop crips",
+      "price": {
+        "after": 42,
+        "before": 0
+      },
+      "rating": 3.1
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPressed%20organic%20bread%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPressed%20organic%20bread%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPressed%20organic%20bread%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPressed%20organic%20bread%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FPressed%20organic%20bread%2Fimg%20(5).jpg?alt=media"
+      ],
+      "name": "Pressed organic bread",
+      "price": {
+        "after": 30,
+        "before": 0
+      },
+      "rating": 2.9
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FProV%20Select%20-%20Almonds%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FProV%20Select%20-%20Almonds%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FProV%20Select%20-%20Almonds%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FProV%20Select%20-%20Almonds%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FProV%20Select%20-%20Almonds%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FProV%20Select%20-%20Almonds%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "ProV Select - Almonds",
+      "price": {
+        "after": 30,
+        "before": 0
+      },
+      "rating": 3.5
+    },
+    {
+      "discount": 52,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSpanish%20tomato%20chips%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSpanish%20tomato%20chips%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSpanish%20tomato%20chips%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSpanish%20tomato%20chips%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSpanish%20tomato%20chips%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSpanish%20tomato%20chips%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Spanish tomato chips",
+      "price": {
+        "after": 21,
+        "before": 44
+      },
+      "rating": 3.1
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSuper%20fresh%20bread%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSuper%20fresh%20bread%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSuper%20fresh%20bread%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSuper%20fresh%20bread%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSuper%20fresh%20bread%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FSuper%20fresh%20bread%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Super fresh bread",
+      "price": {
+        "after": 18,
+        "before": 0
+      },
+      "rating": 1.5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FTrue%20berries%20seeds%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FTrue%20berries%20seeds%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FTrue%20berries%20seeds%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FTrue%20berries%20seeds%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FTrue%20berries%20seeds%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FTrue%20berries%20seeds%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "True berries seeds",
+      "price": {
+        "after": 30,
+        "before": 0
+      },
+      "rating": 2.6
+    },
+    {
+      "discount": 40,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FVedaka%20Raw%20Peanuts%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FVedaka%20Raw%20Peanuts%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FVedaka%20Raw%20Peanuts%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FVedaka%20Raw%20Peanuts%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FVedaka%20Raw%20Peanuts%2Fimg%20(5).jpg?alt=media"
+      ],
+      "name": "Vedaka Raw Peanuts",
+      "price": {
+        "after": 30,
+        "before": 50
+      },
+      "rating": 2.8
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FWalnut%20kenral%20fresh%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FWalnut%20kenral%20fresh%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FWalnut%20kenral%20fresh%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FWalnut%20kenral%20fresh%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FWalnut%20kenral%20fresh%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FMilk%20and%20dairy%2FWalnut%20kenral%20fresh%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Walnut kenral fresh",
+      "price": {
+        "after": 30,
+        "before": 0
+      },
+      "rating": 3.3
+    }
+  ],
+  "Vegetables": [
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20broccoli%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20broccoli%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20broccoli%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20broccoli%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20broccoli%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20broccoli%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Green broccoli",
+      "price": {
+        "after": 42,
+        "before": 0
+      },
+      "rating": 3
+    },
+    {
+      "discount": 40,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20lemon%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20lemon%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20lemon%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20lemon%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20lemon%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FGreen%20lemon%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Green lemon",
+      "price": {
+        "after": 30,
+        "before": 50
+      },
+      "rating": 5.5
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cucumber%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cucumber%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cucumber%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cucumber%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cucumber%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cucumber%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Organic cucumber",
+      "price": {
+        "after": 11,
+        "before": 0
+      },
+      "rating": 2
+    },
+    {
+      "discount": 0,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FNatural%20carrot%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FNatural%20carrot%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FNatural%20carrot%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FNatural%20carrot%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FNatural%20carrot%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FNatural%20carrot%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Natural carrot",
+      "price": {
+        "after": 18,
+        "before": 0
+      },
+      "rating": 2
+    },
+    {
+      "discount": 26,
+      "images": [
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cabbage%2Fimg%20(1).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cabbage%2Fimg%20(2).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cabbage%2Fimg%20(3).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cabbage%2Fimg%20(4).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cabbage%2Fimg%20(5).jpg?alt=media",
+        "https://firebasestorage.googleapis.com/v0/b/ecoshop-79a80.appspot.com/o/Products%2FFoods%2FVegetables%2FOrganic%20cabbage%2Fimg%20(6).jpg?alt=media"
+      ],
+      "name": "Organic cabbage",
+      "price": {
+        "after": 29,
+        "before": 39
+      },
+      "rating": 3
+    }
+  ]
+}

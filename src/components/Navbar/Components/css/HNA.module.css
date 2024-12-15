@@ -1,0 +1,17 @@
+.navbarSlidingRun {
+  animation: sliding 20s linear infinite running;
+}
+
+.navbarSlidingStop {
+  animation: sliding 20s linear infinite paused;
+}
+
+@keyframes sliding {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-984px);
+  }
+}
