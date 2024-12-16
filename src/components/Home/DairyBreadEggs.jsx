@@ -4,9 +4,9 @@ import { useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
 import CardItem from "../../ReusableComponents/CardItem";
 import "swiper/css/grid";
-import { Autoplay, Grid } from "swiper/modules";
+import { Autoplay, Grid, Navigation } from "swiper/modules";
 
-const DairyBreadEggs = () => {
+const DairyBreadEggs = ({ uniqeClass }) => {
   const { products } = useSelector(({ ProductsSlice }) => ProductsSlice);
 
   const mixedProducts = Object.values(products)
@@ -64,8 +64,12 @@ const DairyBreadEggs = () => {
         slidesPerView="6"
         spaceBetween="35"
         autoplay={{ delay: "3000", disableOnInteraction: false }}
-        modules={[Grid, Autoplay]}
-        className="w-full"
+        modules={[Grid, Autoplay, Navigation]}
+        className="w-full order-3"
+        navigation={{
+          nextEl: `.${uniqeClass}.next-sliding`,
+          prevEl: `.${uniqeClass}.prev-sliding`,
+        }}
       >
         {mixedProducts.map((product) => (
           <SwiperSlide key={product?.name}>

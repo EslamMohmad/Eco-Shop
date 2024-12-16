@@ -17,6 +17,7 @@ import {
   faChevronRight,
   faStar,
   faArrowRight,
+  faCircleNotch,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const globalIcons = () =>
@@ -39,5 +40,6 @@ export const globalIcons = () =>
     faStar,
     faHeart,
     faEye,
-    faArrowRight
+    faArrowRight,
+    faCircleNotch
   );

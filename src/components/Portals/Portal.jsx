@@ -7,6 +7,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import CartMenu from "./Components/CartMenu";
 import SearchItems from "./Components/SearchItems";
 import MainMenu from "./Components/MainMenu";
+import ProductInfo from "./Components/ProductInfo";
 
 const Portal = () => {
   const { overlayState } = useSelector(({ PortalSlice }) => PortalSlice);
@@ -38,6 +39,7 @@ const Portal = () => {
           <CartMenu />
           <SearchItems />
           <MainMenu />
+          <ProductInfo />
         </motion.div>
       )}
     </AnimatePresence>

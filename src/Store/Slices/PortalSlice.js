@@ -8,6 +8,7 @@ export const PortalSlice = createSlice({
     cartMenuState: false,
     searchItemsState: false,
     mainMenuState: false,
+    productInfoState: false,
   },
   reducers: {
     closeOverlay: (state) => {
@@ -35,6 +36,10 @@ export const PortalSlice = createSlice({
       state.overlayState = !state.overlayState;
       state.mainMenuState = !state.mainMenuState;
     },
+    toggleProductInfo: (state) => {
+      state.overlayState = !state.overlayState;
+      state.productInfoState = !state.productInfoState;
+    },
   },
 });
 
@@ -45,5 +50,6 @@ export const {
   toggleCartMenu,
   toggleSearchItems,
   toggleMainMenu,
+  toggleProductInfo,
 } = PortalSlice.actions;
 export default PortalSlice.reducer;

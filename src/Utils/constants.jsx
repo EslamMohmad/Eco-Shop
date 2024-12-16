@@ -34,6 +34,13 @@ import discountBanner_1 from "../assets/discount-banners/discount-banner (1).jpg
 import discountBanner_2 from "../assets/discount-banners/discount-banner (2).jpg";
 import discountBanner_3 from "../assets/discount-banners/discount-banner (3).jpg";
 
+import payMethod_1 from "../assets/pay-methodes/method (1).jpg";
+import payMethod_2 from "../assets/pay-methodes/method (2).jpg";
+import payMethod_3 from "../assets/pay-methodes/method (3).jpg";
+import payMethod_4 from "../assets/pay-methodes/method (4).jpg";
+import payMethod_5 from "../assets/pay-methodes/method (5).jpg";
+import payMethod_6 from "../assets/pay-methodes/method (6).jpg";
+
 export const screenClass = "max-w-screen-2xl m-auto px-[20px] lg:px-[30px]";
 
 export const headNavlinks = {
@@ -41,6 +48,15 @@ export const headNavlinks = {
   blog: "blog",
   "order tracking": "",
 };
+
+export const payMethodes = [
+  payMethod_1,
+  payMethod_2,
+  payMethod_3,
+  payMethod_4,
+  payMethod_5,
+  payMethod_6,
+];
 
 export const midNavIconsLinks_Desktop = [
   { icon: "fa-regular fa-user", route: "account", count: false },
@@ -178,8 +194,8 @@ export const tempPartHomeDetails = [
     heading: "dairy, bread and eggs",
     imgSrc: icon_4,
     paragraph: "quality ingredients for a quality life.",
-    controlls: <SliderControlls />,
-    children: <DairyBreadEggs />,
+    controlls: <SliderControlls uniqeClass="dairy-bread-eggs" />,
+    children: <DairyBreadEggs uniqeClass="dairy-bread-eggs" />,
     className: `${screenClass} flex flex-col`,
   },
   {

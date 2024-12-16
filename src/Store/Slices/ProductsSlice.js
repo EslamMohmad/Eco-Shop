@@ -7,6 +7,7 @@ export const ProductsSlice = createSlice({
     filteredProducts: {},
     topSellingProducts: "offers products",
     loadingProductsState: { state: "done", value: false },
+    productInfo: {},
   },
   reducers: {
     getProducts: (state, { payload }) => {
@@ -20,9 +21,16 @@ export const ProductsSlice = createSlice({
       state.loadingProductsState.state = payload.state;
       state.loadingProductsState.value = payload.value;
     },
+    getProductInfo: (state, { payload }) => {
+      state.productInfo = payload;
+    },
   },
 });
 
-export const { getProducts, changeTopProducts, loadingProducts } =
-  ProductsSlice.actions;
+export const {
+  getProducts,
+  changeTopProducts,
+  loadingProducts,
+  getProductInfo,
+} = ProductsSlice.actions;
 export default ProductsSlice.reducer;
