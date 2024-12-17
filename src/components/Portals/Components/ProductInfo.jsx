@@ -5,7 +5,7 @@ import Star from "../../../ReusableComponents/Star";
 import { useState } from "react";
 import { ItemCounter, ItemWeight } from "../../../ReusableComponents/CardItem";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode, Navigation, Thumbs } from "swiper/modules";
+import { Autoplay, FreeMode, Grid, Navigation, Thumbs } from "swiper/modules";
 import { payMethodes } from "../../../Utils/constants";
 
 const ProductInfo = () => {
@@ -26,7 +26,7 @@ const ProductInfo = () => {
   const ratingStarsHandler = () => {
     const emptyStars = Array.from(
       { length: 5 },
-      (e) => (e = <Star key={e} color="gray-300" />)
+      (e) => (e = <Star key={e} color="gray-400" />)
     );
 
     emptyStars.splice(
@@ -34,7 +34,7 @@ const ProductInfo = () => {
       +rating,
       ...Array.from(
         { length: +rating },
-        (e) => (e = <Star key={e} color="yellow-300" />)
+        (e) => (e = <Star key={e} color="yellow-400" />)
       )
     );
 
@@ -45,24 +45,24 @@ const ProductInfo = () => {
     <AnimatePresence>
       {productInfoState && (
         <motion.div
-          className="p-7 bg-white flex lg:w-[900px] mx-10 gap-6"
+          className="p-7 bg-white flex overflow-auto flex-col h-[90%] lg:h-auto lg:flex-row w-[900px] m-10 gap-6"
           onClick={(e) => e.stopPropagation()}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <div className="w-1/2">
+          <div className="lg:w-1/2 flex flex-row justify-between gap-4 lg:flex-col h-3/4 lg:h-auto">
             <Swiper
               onSlideChange={(e) => setActiveSlide(e.activeIndex)}
               thumbs={thumbsSwiper ? { swiper: thumbsSwiper } : undefined}
               modules={[Navigation, Thumbs, FreeMode, Autoplay]}
-              autoplay={{ delay: "2000", disableOnInteraction: false }}
+              // autoplay={{ delay: "2000", disableOnInteraction: false }}
               speed={800}
               navigation={{
                 nextEl: `.productInfoArrowRight`,
                 prevEl: `.productInfoArrowLeft`,
               }}
-              className="relative group"
+              className="relative group w-[96%] lg:w-auto mx-0"
             >
               <button
                 className={`${productArrowStyles} productInfoArrowLeft left-0 group-hover:left-6`}
@@ -71,7 +71,10 @@ const ProductInfo = () => {
               </button>
               {images.map((img) => (
                 <SwiperSlide key={img}>
-                  <img src={img} className="border" />
+                  <img
+                    src={img}
+                    className="border w-full object-cover h-full"
+                  />
                 </SwiperSlide>
               ))}
               <button
@@ -82,31 +85,50 @@ const ProductInfo = () => {
             </Swiper>
             <Swiper
               onSwiper={setThumbsSwiper}
-              spaceBetween={16}
-              modules={[FreeMode, Navigation, Thumbs]}
+              modules={[FreeMode, Navigation, Thumbs, Grid]}
               freeMode={true}
               watchSlidesProgress={true}
-              slidesPerView={images.length}
-              className="flex gap-2 mt-2"
+              breakpoints={{
+                1023: {
+                  spaceBetween: 16,
+                  slidesPerView: images.length,
+                  grid: {
+                    rows: 1,
+                    fill: "row",
+                  },
+                },
+                0: {
+                  spaceBetween: 16,
+                  slidesPerView: 1,
+                  grid: {
+                    rows: images.length,
+                    fill: "column",
+                  },
+                },
+              }}
+              className="lg:mt-2 lg:w-full"
             >
               {images?.map((img, idx) => (
-                <SwiperSlide key={img} className={`cursor-pointer w-[20%]`}>
+                <SwiperSlide
+                  key={img}
+                  className={`cursor-pointer !mr-0 lg:!mr-auto`}
+                >
                   <img
                     src={img}
                     className={`border ${
                       activeSlide === idx
                         ? "border-gray-500"
                         : "border-gray-200"
-                    } object-cover`}
+                    } object-cover h-full w-full`}
                   />
                 </SwiperSlide>
               ))}
             </Swiper>
           </div>
-          <div className="w-1/2">
+          <div className="lg:w-1/2">
             <div className="pb-7 border-b flex flex-col gap-2">
               <h1 className="text-2xl font-semibold">{name}</h1>
-              <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2 lg:justify-between flex-wrap">
                 <div className="flex gap-[1px]">{...ratingStarsHandler()}</div>
                 <span className="text-[13px] text-gray-400">2 reviews</span>/
                 <p className="text-red-600 font-bold">8 sold in last 2 hours</p>
