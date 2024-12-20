@@ -1,9 +1,8 @@
 import { useEffect } from "react";
 import { database } from "../../Firebase/Firebase";
 import { onValue, ref } from "firebase/database";
-import CardItem from "../../ReusableComponents/CardItem";
+import ColumnCardItem from "../../ReusableComponents/ColumnCardItem";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css/grid";
 import { Autoplay, Grid } from "swiper/modules";
 import { useSelector, useDispatch } from "react-redux";
 import { getProducts, loadingProducts } from "../../Store/Slices/ProductsSlice";
@@ -29,6 +28,7 @@ const TopSellingProducts = () => {
 
   useEffect(() => {
     const myRef = ref(database, "/");
+
     onValue(myRef, (snapshot) => {
       const object = {};
       topProductsState[topSellingProducts].map(
@@ -98,7 +98,7 @@ const TopSellingProducts = () => {
           .flat()
           .map((item) => (
             <SwiperSlide key={item?.name}>
-              <CardItem {...item} />
+              <ColumnCardItem {...item} />
             </SwiperSlide>
           ))}
       </Swiper>

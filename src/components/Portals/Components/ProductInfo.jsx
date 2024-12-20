@@ -1,12 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { AnimatePresence, motion } from "framer-motion";
-import { useSelector } from "react-redux";
-import Star from "../../../ReusableComponents/Star";
+import { useDispatch, useSelector } from "react-redux";
+import Star from "../../../ReusableComponents/Rating";
 import { useState } from "react";
-import { ItemCounter, ItemWeight } from "../../../ReusableComponents/CardItem";
+import {
+  ItemCounter,
+  ItemWeight,
+} from "../../../ReusableComponents/ColumnCardItem";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, FreeMode, Grid, Navigation, Thumbs } from "swiper/modules";
 import { payMethodes } from "../../../Utils/constants";
+import { closeOverlay } from "../../../Store/Slices/PortalSlice";
+import Rating from "../../../ReusableComponents/Rating";
 
 const ProductInfo = () => {
   const {
@@ -23,7 +28,7 @@ const ProductInfo = () => {
   const productArrowStyles =
     "absolute z-10 top-1/2 -translate-y-1/2 w-[50px] h-[50px] leading-[50px] text-center bg-black/5 rounded-full shadow-xl opacity-0 transition-all group-hover:opacity-100";
 
-  const ratingStarsHandler = () => {
+  const ratingStarsHandler = (rating) => {
     const emptyStars = Array.from(
       { length: 5 },
       (e) => (e = <Star key={e} color="gray-400" />)
@@ -41,28 +46,36 @@ const ProductInfo = () => {
     return emptyStars;
   };
 
+  const dispatch = useDispatch();
+
   return (
     <AnimatePresence>
       {productInfoState && (
         <motion.div
-          className="p-7 bg-white flex overflow-auto flex-col h-[90%] lg:h-auto lg:flex-row w-[900px] m-10 gap-6"
+          className="relative p-7 bg-white flex overflow-auto flex-col h-[90%] lg:h-auto lg:flex-row w-[900px] m-10 gap-6"
           onClick={(e) => e.stopPropagation()}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <div className="lg:w-1/2 flex flex-row justify-between gap-4 lg:flex-col h-3/4 lg:h-auto">
+          <button
+            className="absolute top-0 right-0 z-10 bg-black text-white py-1 px-2"
+            onClick={() => dispatch(closeOverlay(false))}
+          >
+            <FontAwesomeIcon icon="fa-solid fa-xmark" />
+          </button>
+          <div className="lg:w-1/2 flex flex-col sm:flex-row justify-between gap-4 lg:flex-col h-3/4 lg:h-auto">
             <Swiper
               onSlideChange={(e) => setActiveSlide(e.activeIndex)}
               thumbs={thumbsSwiper ? { swiper: thumbsSwiper } : undefined}
               modules={[Navigation, Thumbs, FreeMode, Autoplay]}
-              // autoplay={{ delay: "2000", disableOnInteraction: false }}
+              autoplay={{ delay: "3000", disableOnInteraction: false }}
               speed={800}
               navigation={{
                 nextEl: `.productInfoArrowRight`,
                 prevEl: `.productInfoArrowLeft`,
               }}
-              className="relative group w-[96%] lg:w-auto mx-0"
+              className="relative group sm:w-[96%] lg:w-auto mx-0"
             >
               <button
                 className={`${productArrowStyles} productInfoArrowLeft left-0 group-hover:left-6`}
@@ -97,7 +110,7 @@ const ProductInfo = () => {
                     fill: "row",
                   },
                 },
-                0: {
+                640: {
                   spaceBetween: 16,
                   slidesPerView: 1,
                   grid: {
@@ -105,13 +118,21 @@ const ProductInfo = () => {
                     fill: "column",
                   },
                 },
+                0: {
+                  spaceBetween: 16,
+                  slidesPerView: 3,
+                  grid: {
+                    rows: 1,
+                    fill: "row",
+                  },
+                },
               }}
-              className="lg:mt-2 lg:w-full"
+              className="mx-0 mt-2 sm:mt-0 lg:mt-2 lg:w-full"
             >
               {images?.map((img, idx) => (
                 <SwiperSlide
                   key={img}
-                  className={`cursor-pointer !mr-0 lg:!mr-auto`}
+                  className={`cursor-pointer sm:!mr-0 lg:!mr-auto`}
                 >
                   <img
                     src={img}
@@ -129,7 +150,9 @@ const ProductInfo = () => {
             <div className="pb-7 border-b flex flex-col gap-2">
               <h1 className="text-2xl font-semibold">{name}</h1>
               <div className="flex items-center gap-2 lg:justify-between flex-wrap">
-                <div className="flex gap-[1px]">{...ratingStarsHandler()}</div>
+                <div className="flex gap-[1px]">
+                  <Rating color="yellow-300" rating={rating} />
+                </div>
                 <span className="text-[13px] text-gray-400">2 reviews</span>/
                 <p className="text-red-600 font-bold">8 sold in last 2 hours</p>
               </div>

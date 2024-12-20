@@ -12,6 +12,7 @@ export default {
         blackColor: "#383128",
         redColor: "#ff472b",
         grayColor: "#ebebeb",
+        lightGrayColor: "#f1f1f1",
         greenColor: "#5c9e22",
         textGrayColor: "#696969",
       },

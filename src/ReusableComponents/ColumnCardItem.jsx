@@ -3,6 +3,7 @@ import { memo, useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { toggleProductInfo } from "../Store/Slices/PortalSlice";
 import { getProductInfo } from "../Store/Slices/ProductsSlice";
+import LoadingContentComp from "./LoadingContentComp";
 
 export const ItemWeight = ({ getValue }) => {
   const weights = [1, 2, 3, 5];
@@ -88,7 +89,7 @@ const ItemOptions = ({ hoverState, productDetails }) => {
   );
 };
 
-const CardItem = (props) => {
+const ColumnCardItem = (props) => {
   const [onHoverState, setOnHoverState] = useState(false);
   const [loadImg, setLoadImg] = useState(false);
   const { discount, images, name, price, rating } = props;
@@ -96,19 +97,6 @@ const CardItem = (props) => {
   const { loadingProductsState } = useSelector(
     ({ ProductsSlice }) => ProductsSlice
   );
-
-  const LoadingContentHandler = ({ children, width, height }) => {
-    return !loadingProductsState.value && loadImg ? (
-      children
-    ) : (
-      <div
-        className={`relative bg-black/15 rounded-md animate-pulse h-[${
-          height || "auto"
-        }] w-[${width || "100%"}] `}
-        style={{ height, width }}
-      ></div>
-    );
-  };
 
   return (
     <div
@@ -141,17 +129,17 @@ const CardItem = (props) => {
           } object-cover`}
         />
       </div>
-      <LoadingContentHandler width="80%" height="24px">
+      <LoadingContentComp width="80%" height="24px">
         <h3 className="font-semibold text-blackColor hover:text-secondOrangeColor cursor-pointer text-nowrap overflow-hidden text-ellipsis">
           {name}
         </h3>
-      </LoadingContentHandler>
+      </LoadingContentComp>
       <div className="flex gap-3">
         <ItemWeight />
         <ItemCounter />
       </div>
       <div className="flex justify-between items-center">
-        <LoadingContentHandler height="24px" width="60%">
+        <LoadingContentComp height="24px" width="60%">
           <div className="flex gap-1 items-center flex-wrap">
             <p className="text-secondOrangeColor font-bold">
               ${price?.after.toFixed(2)}
@@ -164,8 +152,8 @@ const CardItem = (props) => {
               ""
             )}
           </div>
-        </LoadingContentHandler>
-        <LoadingContentHandler height="24px" width="20%">
+        </LoadingContentComp>
+        <LoadingContentComp height="24px" width="20%">
           <div className="text-greenColor font-semibold rounded-md text-sm bg-greenColor/30 py-0 px-2 flex h-[max-content] items-center">
             <FontAwesomeIcon
               icon="fa-solid fa-star"
@@ -174,7 +162,7 @@ const CardItem = (props) => {
             />
             <span>{rating.toFixed(1)}</span>
           </div>
-        </LoadingContentHandler>
+        </LoadingContentComp>
       </div>
 
       <button className="bg-grayColor text-blackColor rounded-md py-2 px-5 font-semibold hover:bg-secondOrangeColor hover:text-white transition-colors duration-300 uppercase text-sm">
@@ -185,4 +173,4 @@ const CardItem = (props) => {
   );
 };
 
-export default memo(CardItem);
+export default memo(ColumnCardItem);

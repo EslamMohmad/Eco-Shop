@@ -40,6 +40,7 @@ import payMethod_3 from "../assets/pay-methodes/method (3).jpg";
 import payMethod_4 from "../assets/pay-methodes/method (4).jpg";
 import payMethod_5 from "../assets/pay-methodes/method (5).jpg";
 import payMethod_6 from "../assets/pay-methodes/method (6).jpg";
+import ProductsBannersGrid from "../components/Home/ProductsBannersGrid/ProductsBannersGrid";
 
 export const screenClass = "max-w-screen-2xl m-auto px-[20px] lg:px-[30px]";
 
@@ -187,7 +188,7 @@ export const tempPartHomeDetails = [
     paragraph: "stocking up on goodness, one aisle at a time.",
     controlls: <SliderControlls uniqeClass="categories-offer" />,
     children: <CategoriesOfferDeals uniqeClass="categories-offer" />,
-    className: "bg-black/10 pt-10 pb-14 ",
+    className: "bg-lightGrayColor pt-10 pb-14 ",
   },
   {
     headingClass: "order-2",
@@ -197,6 +198,15 @@ export const tempPartHomeDetails = [
     controlls: <SliderControlls uniqeClass="dairy-bread-eggs" />,
     children: <DairyBreadEggs uniqeClass="dairy-bread-eggs" />,
     className: `${screenClass} flex flex-col`,
+  },
+  {
+    headingClass: "",
+    heading: "",
+    imgSrc: "",
+    paragraph: "",
+    controlls: "",
+    children: <ProductsBannersGrid />,
+    className: "bg-lightGrayColor flex flex-col",
   },
   {
     headingClass: "",

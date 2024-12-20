@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import JoinNewsLetters from "./Components/JoinNewsLetters";
 import { useSelector, useDispatch } from "react-redux";
 import { openPopupWindow, closeOverlay } from "../../Store/Slices/PortalSlice";
-import { waiting } from "../../Utils/waiting";
+import { waiting } from "../../Utils/functions";
 import { AnimatePresence, motion } from "framer-motion";
 import CartMenu from "./Components/CartMenu";
 import SearchItems from "./Components/SearchItems";
@@ -24,6 +24,12 @@ const Portal = () => {
 
     return () => window.removeEventListener("DOMContentLoaded", windowLoaded);
   }, []);
+
+  useEffect(() => {
+    overlayState
+      ? document.body.classList.add("overflow-hidden")
+      : document.body.classList.remove("overflow-hidden");
+  }, [overlayState]);
 
   return (
     <AnimatePresence>

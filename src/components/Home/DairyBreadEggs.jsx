@@ -1,8 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { dicountBanners, screenClass } from "../../Utils/constants";
+import { dicountBanners } from "../../Utils/constants";
 import { useSelector } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
-import CardItem from "../../ReusableComponents/CardItem";
+import ColumnCardItem from "../../ReusableComponents/ColumnCardItem";
 import "swiper/css/grid";
 import { Autoplay, Grid, Navigation } from "swiper/modules";
 
@@ -63,6 +63,7 @@ const DairyBreadEggs = ({ uniqeClass }) => {
         breakpoints={breakPoints}
         slidesPerView="6"
         spaceBetween="35"
+        speed={800}
         autoplay={{ delay: "3000", disableOnInteraction: false }}
         modules={[Grid, Autoplay, Navigation]}
         className="w-full order-3"
@@ -73,7 +74,7 @@ const DairyBreadEggs = ({ uniqeClass }) => {
       >
         {mixedProducts.map((product) => (
           <SwiperSlide key={product?.name}>
-            <CardItem {...product} />
+            <ColumnCardItem {...product} />
           </SwiperSlide>
         ))}
       </Swiper>
